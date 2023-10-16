@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 /**
  * Rest-Endpoint for todos.
  */
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/todos")
 public class TodoController {

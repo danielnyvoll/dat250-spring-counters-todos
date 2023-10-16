@@ -7,15 +7,13 @@ public class Todo {
     private String summary;
     private String description;
 
-    public Todo() {
-    }
-
     public Todo(Long id, String summary, String description) {
         this.id = id;
         this.summary = summary;
         this.description = description;
     }
-
+    public Todo() {
+    }
     public Todo(String summary, String description) {
         this(null, summary, description);
     }
